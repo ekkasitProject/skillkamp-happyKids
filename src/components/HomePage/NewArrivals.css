@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Brandon Grot W01 Light";
+  src: url("../../fonts/BrandonGrotesque-Light/BrandonGrotesque-Light.woff2")
+      format("woff2"),
+    url("../../fonts/BrandonGrotesque-Light/BrandonGrotesque-Light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container_new_product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container_new_product .content {
+  font-size: 28px;
+  text-align: center;
+  width: 100%;
+  font-family: "Brandon Grot W01 Light";
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin: 1.2em 0;
+}

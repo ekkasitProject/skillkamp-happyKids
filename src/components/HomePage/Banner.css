@@ -1,0 +1,63 @@
+.container-banner {
+  position: relative;
+  width: 100%;
+  height: 650px;
+}
+
+.container-banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-img {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-img button {
+  background-color: rgb(40, 40, 40);
+  border-radius: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-img button:hover,
+.nav-img button.active {
+  background-color: rgb(163, 176, 182);
+  border-radius: 100%;
+}
+
+.container-banner button {
+  padding: 4px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.prev-button {
+  font-size: 40px;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.next-button {
+  font-size: 40px;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
